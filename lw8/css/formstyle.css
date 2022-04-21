@@ -1,0 +1,162 @@
+.welcome{
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+.form_ill{
+    display: flex;
+    justify-content: center;
+}
+.enroll_on_course_form{  
+    display: flex; 
+    justify-content: center;
+    width: 651px;
+    height: 31px;
+    font-weight: 500;
+    font-size: 26px;
+}
+.enroll_on_course_form p{
+    margin: 0px;
+}
+.form{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;   
+    color: #999999; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    box-sizing:border-box;
+}
+.form__name::placeholder{
+    width: 96px;
+    height: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;   
+    color: #999999;
+
+}
+.form__name{
+    margin-bottom:20px;
+    margin-top: 33px;
+    padding-left: 28px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    background: #FFFFFF;
+    border: 1.34888px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 480px;
+    height: 64px;     
+} 
+.form__email::placeholder{
+    width: 131px;
+    height: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;   
+    color: #999999;
+}
+.form__email{
+    margin-bottom:20px;
+    padding-left: 28px;
+    font-family: 'Montserrat';
+    font-style: normal; 
+    background: #FFFFFF;
+    border: 1.34888px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    width: 480px;
+    height: 64px;
+}
+.form__work{
+    margin-bottom:20px;
+    padding-left: 28px;
+    font-family: 'Montserrat';
+    font-style: normal; 
+    background: #FFFFFF;
+    border: 1.34888px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    width: 480px;
+    height: 64px; 
+    font-size: 18px;
+    line-height: 22px;   
+    color: #999999; 
+}
+.programmer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #444444;    
+}
+.designer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #444444;    
+}
+.marketer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #444444;    
+}    
+
+.permission{
+    display: flex;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+    margin-left:80px ; 
+    margin-bottom: 35px;  
+}
+
+.permission__check::before{
+    background-color: #EE58B6;
+    border-radius: 4px;
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;    
+}
+.enroll_form{
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 64px;
+    text-align: center;
+    background: #05090C;
+    border-radius: 4.59px;
+    margin-left: 80px;
+    margin-bottom: 35px;
+}
+.enroll_form p{
+    display: flex;
+    width: 480px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    justify-content: center;
+    align-content: center;
+}
+
