@@ -1,0 +1,349 @@
+.header__logo
+{
+    width: 203px;
+    height: 37.69px;
+}
+
+.header__tabs p{
+    margin: 0;
+}
+
+.header__tabs__item
+{
+    font: normal 500 16px/1.25 'Montserrat';
+    color: #000000;
+}
+
+
+.header__about_course
+{
+    width: 167px;
+    height: 20px;
+}
+.header__questions
+{
+    width: 77px;
+    height: 20px;
+}
+.header__author
+{
+    width: 51px;
+    height: 20px;
+}
+
+.header__tabs__item_enroll
+{
+    width: 167px;
+    height: 17px;
+    padding: 18px 40px;
+    background: #000;
+    font: normal 600 16px/16px 'Montserrat';
+    border-radius: 4.6px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.enroll__logoru
+{
+    width: 745px;
+    height: 138.31px;
+
+}
+.logoru__text
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 122.35%;
+    color: #000000;
+}
+.enroll__description
+{
+    width: 545px;
+    height: 62px;
+    top: 143px;
+}
+.description__text
+{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.7);
+}
+.enroll__button
+{
+
+    width: 332px;
+    height: 55px;
+    top: 251px;
+    text-align: center;
+    background: #05090C;
+    border-radius: 4.59px;
+}
+.button__text
+{
+    width: 332px;
+    height: 55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.button__text {
+    margin: 0;
+}
+
+.colortext
+{
+    color:#ee58b6;
+}
+.insert
+{
+    width: 1920px;
+    height: 398px;
+
+    background: #000000;    
+}
+.insert__row
+{
+    width: 1138px;
+    height: 145px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+       
+}
+
+.row__block-time
+{
+    width: 285px;
+    height: 145px;
+}
+.block-time__icon
+{
+    width: 60px;
+    height: 60px;
+    left: 113px;
+    top: 0px;
+}
+.block-time__text
+{
+    width: 303px;
+    height: 52px;
+      
+}
+.row__block-benefits
+{
+    width: 337px;
+    height: 132px;
+}
+.block-benefits__icon
+{
+    width: 60px;
+    height: 60px;
+    
+}
+.block-benefits__text
+{
+    width: 337px;
+    height: 52px;
+
+}
+.row__block-goal
+{
+    width: 293px;
+    height: 132px;
+}
+.block-goal__icon
+{
+    width: 60px;
+    height: 60px;
+    left: 116.05px;
+    top: 0px;
+}
+.block-goal__text
+{
+    width: 336.95px;
+    height: 52px;
+    left: -22px;
+    top: 80px;
+}
+
+.block__text
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 126.06%;    
+}
+.block__problem__text
+{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    color: rgba(0, 0, 0, 0.7);
+    width: 574px;
+    height: 48px;
+}
+.on_course_you_can__text
+{
+    width: 553px;
+    height: 59px;
+    left: 290px;
+    top: 0px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+}
+.all_blocks
+{
+    width: 1135px;
+    height: 411px;    
+}
+.block
+{
+    width: 358px;
+    height: 190px;
+    left: 0px;
+    top: 0px;
+    
+    background: #000000;
+    border-radius: 7.35723px;
+}
+.block__ill_1f
+{
+    width: 37.16px;
+    height: 48px;
+    left: 39.35px;
+    top: 32.36px;
+}
+.block__ill_2f
+{
+    width: 35.03px;
+    height: 48px;
+    left: 40.15px;
+    top: 32.36px;
+}
+.block__ill_3f
+{
+    width: 44.94px;
+    height: 48px;
+    left: 38.84px;
+    top: 32.36px;    
+}
+.block__ill_4f
+{
+    width: 39.58px;
+    height: 48px;
+    left: 39.35px;
+    top: 33.22px;   
+}
+.block__ill_5f
+{
+    width: 49.46px;
+    height: 48px;
+    left: 40.15px;
+    top: 33.22px;    
+}
+.block__ill_6f
+{
+    width: 35.51px;
+    height: 48px;
+    left: 38.84px;
+    top: 33.22px;
+}
+.block__info_1f
+{
+    width: 269.77px;
+    height: 51.5px;
+    left: 39.25px;
+    top: 101.23px;
+}
+.block__info_2f
+{
+    width: 269.77px;
+    height: 51.5px;
+    left: 39.74px;
+    top: 101.23px;
+}
+.block__info_3f
+{
+    width: 269.77px;
+    height: 51.5px;
+    left: 39.22px;
+    top: 101.23px;
+}
+.block__info_4f
+{
+    width: 269.77px;
+    height: 51.5px;
+    left: 39.25px;
+    top: 101.38px;
+}
+.block__info_5f
+{
+    width: 269.77px;
+    height: 51.5px;
+    left: 39.74px;
+    top: 101.38px;
+}
+.block__info_6f
+{
+    width: 286px;
+    height: 52px;
+    left: 39px;
+    top: 101.38px;    
+}
+.block p
+{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #FFFFFF;    
+}
+.footer
+{
+    width: 1920px;
+    height: 108px;
+    text-align: center;
+    background: #000000;    
+}
+.footer__logo
+{
+    width: 167px;
+    height: 48px;
+    left: 876px;
+    top: 30px;    
+}
