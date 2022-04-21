@@ -7,16 +7,15 @@
   function checkIdentifier($text) 
   {
     $position = 0;
-    $symbols = 'qwertyuiopasdfghjklzxcvbnm1234567890';
+    $digits = '1234567890';
     $letters = 'qwertyuiopasdfghjklzxcvbnm';
     $flag = true;
     if (empty($text) === false)
     {
-      if (stripos($letters, $text[0]) === false & strlen($text) != 0) $flag = false;
-      $position++;
+      $flag = stripos($letters, $text[0]) === false;
       while ($position < strlen($text)) 
       {
-        if (stripos($symbols, $text[$position]) === false) $flag = false;
+        $flag = stripos($digits . $letters, $text[$position]) === false;
         $position++;
       };
       return $flag;

@@ -8,7 +8,7 @@
   $position = 0;
   if (strlen($str) != 0)
   {
-    while ($position < strlen($str) & $str[$position] == " ") $position++;
+    while ($position < strlen($str) and $str[$position] == " ") $position++;
     while ($position < strlen($str)) 
     {
       if ($str[$position] != " ") 
@@ -18,7 +18,7 @@
       } 
       else 
       {
-        while ($str[$position] == " "  & $position < strlen($str)) $position++;
+        while ($str[$position] == " " and $position < strlen($str)) $position++;
         if ($position != strlen($str)) echo " " ;
       };
     };
