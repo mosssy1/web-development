@@ -1,0 +1,227 @@
+.popup__bg 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;   
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.popup__bg.active 
+{ 
+    opacity: 1; 
+    pointer-events: all;
+    transition: 0.5s all;
+}
+
+.popup 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5); 
+    background: #fff;
+    width: 640px;
+    height: 847px;
+    transition: 0.5s all;
+}
+
+.popup.active
+{ 
+    transform: translate(-50%, -50%) scale(1); 
+    transition: 0.5s all;
+}
+
+.welcome{
+    font-family: 'Montserrat';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 847px;
+}
+.close_pop_up_button
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.form_ill{
+    display: flex;
+    margin-left: 155px;
+}
+.enroll_on_course_form{  
+    display: flex;
+    height: 31px;
+    font-weight: 500;
+    font-size: 26px;
+    margin-left: 182px;
+}
+.enroll_on_course_form p{
+    margin: 0px;
+}
+.form{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;   
+    color: #999999; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing:border-box;
+}
+.form__name::placeholder{
+    width: 96px;
+    height: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;   
+    color: #999999;
+
+}
+.form__name{
+    margin-bottom:20px;
+    margin-top: 33px;
+    padding-left: 28px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    background: #FFFFFF;
+    border: 1.34888px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 480px;
+    height: 64px;     
+} 
+.form__email::placeholder{
+    width: 131px;
+    height: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;   
+    color: #999999;
+}
+.form__email{
+    margin-bottom:20px;
+    padding-left: 28px;
+    font-family: 'Montserrat';
+    font-style: normal; 
+    background: #FFFFFF;
+    border: 1.34888px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    width: 480px;
+    height: 64px;
+}
+.form__work{
+    margin-bottom:20px;
+    padding-left: 28px;
+    font-family: 'Montserrat';
+    font-style: normal; 
+    background: #FFFFFF;
+    border: 1px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    width: 480px;
+    height: 64px; 
+    font-size: 18px;
+    line-height: 22px;   
+    color: #999999; 
+}
+.form select
+{
+    background-image:url("../img/arrow_down.png");
+    background-repeat: no-repeat;
+    background-position: 422px;
+    -webkit-appearance: none;
+}
+.activity__programmer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #444444;    
+}
+.activity__designer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #444444;    
+}
+.activity__marketer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #444444;    
+}    
+.permission {
+    display: flex;
+    width: 480px;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.permission__check_label{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.permission__check_label input[type=checkbox] {
+	-webkit-appearance: none;
+	/* display: inline-block; */
+	width: 22px;
+	height: 22px;
+	margin: 0 7.68px 0 0;
+	padding: 0;
+	vertical-align: top;
+	/* outline: none; */
+	transition: background 0.3s ease;
+	background: url(../img/Checkboxoff.svg) 0 0 no-repeat;
+	cursor: pointer;
+}
+ 
+/* Checked */
+.permission__check_label input[type=checkbox]:checked {
+	background-image: url(../img/Checkbox_on.png);
+}
+.enroll_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.enroll_form{
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 64px;
+    text-align: center;
+    background: #05090C;
+    border-radius: 4.59px;
+}
+.enroll_form p{
+    display: flex;
+    width: 480px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    justify-content: center;
+    align-content: center;
+}
