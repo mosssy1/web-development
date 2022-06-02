@@ -1,0 +1,60 @@
+.button
+{
+    margin: 26px 0 12px 64px;
+}
+
+.button__target
+{
+    padding: 22px 108px;
+    max-width: 385px;
+    height: 64px;
+    background: #000;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font: 500 18px 'Montserrat';
+}
+
+.surveys
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1800px;
+    padding: 10px 64px;
+}
+
+.survey
+{
+    padding: 46px 30px;
+    margin: 0 30px 30px 0;
+    max-width: 358px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-width: 358px;
+    min-height: 190px;
+    background: #000;
+    border-radius: 7px;
+}
+
+.survey__text
+{
+    margin: 0;
+    max-width: 286px;
+    font: 400 18px 'Roboto Condensed';
+    line-height: 21px;
+    color: #FFF;
+}
+
+.survey__image
+{
+    margin: 0 0 21px;
+    max-width: 50px;
+}
+
+.not-found-text
+{
+    font: 500 18px/1.2 Montserrat; 
+}
+
